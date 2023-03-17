@@ -54,7 +54,7 @@ def searchcity():
         pressure_.config(text=f"{pressure} hPa")
         date_label.config(text=curr_date)
     except Exception as e:
-        messagebox.showerror("Weather App", "Invalid Entry, Please enter a proper city name.")
+        messagebox.showerror("What's The Weather", "Invalid Entry, Please enter a proper city name.")
 
 
 root.title("What's the Weather?")
